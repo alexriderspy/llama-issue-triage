@@ -1,0 +1,9 @@
+sreemanti@MacBook-Pro issue-triage % python data/fetch_issues.py
+bug 300
+feature request 298
+usage 299
+installation 299
+performance 283
+new-model 271
+documentation 270
+total 2020

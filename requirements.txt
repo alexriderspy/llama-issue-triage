@@ -1,0 +1,5 @@
+torch>=2.6
+transformers>=5.0
+peft>=0.17
+scikit-learn
+requests

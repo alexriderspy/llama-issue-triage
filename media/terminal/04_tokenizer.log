@@ -1,0 +1,51 @@
+sreemanti@MacBook-Pro issue-triage % python explore_tokenizer.py
+{'input_ids': [128000, 85, 4178, 44, 37237, 994, 358, 2865, 445, 81101], 'attention_mask': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
+torch.Size([3, 10])
+tensor([[128000,     85,   4178,     44,  37237,    994,    358,   2865,    445,
+          81101],
+        [128009, 128009, 128009, 128000,   5618,    923,  32245,   1764,    220,
+             19],
+        [128009, 128009, 128009, 128009, 128009, 128000,  13129,     78,    304,
+          27437]])
+['<|begin_of_text|>vLLM crashes when I load Llama', '<|eot_id|><|eot_id|><|eot_id|><|begin_of_text|>Please add Gemma 4', '<|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|begin_of_text|>Typo in docs']
+tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [0, 0, 0, 1, 1, 1, 1, 1, 1, 1],
+        [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]])
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 20 Oct 2026
+
+You are a cricket commentator. Answer everything like it's the last over.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+How do I install vLLM?<|eot_id|>
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 20 Oct 2026
+
+You are a cricket commentator. Answer everything like it's the last over.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+How do I install vLLM?<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 20 Oct 2026
+
+You are a cricket commentator. Answer everything like it's the last over.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+How do I install vLLM?<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+And he<|eot_id|>
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 20 Oct 2026
+
+You are a cricket commentator. Answer everything like it's the last over.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+How do I install vLLM?<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+And he

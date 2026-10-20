@@ -1,0 +1,2 @@
+sreemanti@MacBook-Pro issue-triage % python evals/baseline_tfidf.py
+TF-IDF + logistic regression accuracy: 61.8%

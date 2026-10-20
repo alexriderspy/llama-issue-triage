@@ -1,0 +1,1682 @@
+[
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Corrupt PNG image in request returns HTTP 500 \"broken PNG file (chunk ...)\" instead of a client error"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "v0.32.0 official image: deepep_v2 fails with ZeroDivisionError after ibstat bandwidth detection fails"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Responses API: tool_choice=allowed_tools does not work"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "`cudagraph_mode=FULL` + FA3 split-KV returns wrong logits: the combine kernel's tile scheduler is chosen from the capture-time dummy batch"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "I'll categorize the issue as:",
+  "title": "A100 run Bolt (nv-community/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB) throw :B12X NVFP4 kernels require a Blackwell 12x device"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "TurboQuant on hybrid (GDN) models: manager block cannot be split into kernel blocks, and a quantized-KV drafter inflates all KV pages (pool 97k vs 235k tokens)"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "EXIF-oriented images (orientation != 1) return 500 on mistral-tokenizer models: \"Expected there to be 1 prompt placeholders ... found 0\""
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "wheels released for CPU cannot be installed with `uv pip install`"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Qwen3.8-Flash-Next checkpoints with quantized q/k/v and an unquantized QSA indexer fail to load since #59533 (v0.32.0)"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Cold-cache KV cache OOM with `--kv-cache-memory-bytes` and `--enable-sleep-mode`"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Tool-call argument coercion turns string values such as \"0017\" into integers for [\"string\", \"integer\"] parameters"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "CPU backend \u2014 non-LoRA requests batched with LoRA requests get the adapter applied (silent wrong output)"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Model Runner V2 hangs during speculative decoding warmup with pipeline parallelism"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "quantization=\"mxfp8\" + moe_backend=\"humming\" crashes weight conversion with a bare KeyError: 'weight_scale' \u2014 the MXFP8 oracle selects humming, then a third-party schema converter raises"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "moe_backend=\"cutlass\" with online FP8 raises a reason-free \"vLLM CUTLASS FP8 MoE backend is disabled for this configuration.\" \u2014 every sibling backend reports the actual rejection reason via _make_log_unsupported"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "speculative_config.method=\"ngram_gpu\" with compilation_config.mode=\"NONE\" kills engine init \u2014 ValueError: No compilation mode is set."
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "FP8 MoE per-tensor + CUDA graphs causes cross-request contamination via padding row amax"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "/pause clears SHM multimodal cache, can cause fatal ValueError for queued requests"
+ },
+ {
+  "gold": "bug",
+  "pred": "bug",
+  "raw": "bug",
+  "title": "prompt_logprobs=0 bypasses fast-prefill guard, causing V1 crash or V2 silent errors"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Race condition in multimodal drift recovery causes HTTP 500 (AssertionError: Expected a cached item)"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Qwen3.8-Flash-Next (qwen4_exp) deadlocks on RTX 6000D (SM120) \u2014 hangs in JIT warmup and at first real request (GDN/hyperconnection kernels); Qwen3.8-27B works fine on the same box"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "`--load-format ipc_cache` leaves MoE routers on meta placeholders (illegal memory access, meta-tensor errors)"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Stop sequences match inside reasoning, so responses come back empty (breaks Claude Code auto mode)"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "DeepSeek V4.1 tool parser drops malformed DSML blocks and emits invalid/empty args on truncation"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "mamba_ssm_cache_dtype=\"float16\" crashes mamba-family models at startup \u2014 bare kernel assertion with an empty message (selective_scan_fwd.cu:791)"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "--reasoning-parser qwen3: leading \\n\\n left in content after stripping the <think> block"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "vLLM EngineCore crash in native KV offloading for hybrid Attention/Mamba model"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "`vllm serve --uds <path>` cannot be restarted on the same path: the socket file is never removed, so the second start fails with `[Errno 98] Address already in use`"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "MiMo-V2 with FP8 KV cache crashes on NVIDIA SM89/SM12x: Triton DiffKV fails to compile (\"K >= 32\"), since v0.32.0rc0"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "ORCA endpoint-load-metrics reports only one engine's load under data parallel"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Shutdown stalls ~90s: every TP rank unpins the full shared host pool and EngineCore blocks on dying workers"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "quantization=\"mxfp4\" on CUDA reports \"No MXFP4 MoE backend supports the deployment configuration\" while listing only AMD backends (AITER / amd-quark)"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "enable_lora on Jamba (ai21labs/Jamba-tiny-dev) causes a CUDA illegal memory access followed by an uncaught C++ exception (`terminate called ... c10::AcceleratorError`) during startup"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "dtype=\"float32\" + enable_lora crashes LFM2 startup \u2014 lora_expand Triton op asserts `weight.dtype in [torch.float16, torch.bfloat16]`"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Zamba2 does not support LoRA but rejects it via a bare `assert` deep inside the model constructor \u2014 opaque `Engine core initialization failed` instead of a config-time error"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Olmo-Hybrid-7B fails to load with default settings \u2014 GDN fused conv1d weight loader indexes `dims[loaded_shard_id]` while `loaded_shard_id` defaults to `None`"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "dtype=\"float32\" crashes unquantized MoE models at startup on SM89 \u2014 Triton fused-MoE picks a 128 KiB shared-memory kernel (Required 131072 > limit 101376)"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "DSpark draft token count inflated by reusing target DP sync state with adaptive verification"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "triton unified_attention reads block_table out-of-bounds past the used columns"
+ },
+ {
+  "gold": "bug",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "fused_recurrent KDA path loads the per-key gate g without a mask, resulting in out-of-bounds reads"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe proposer is constructed",
+  "title": "Support model-based drafters (target hidden states) via custom_class"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe issue is that the",
+  "title": "Default to NextTokenPrediction Read strategy for text generation models for /v1/systemone and /v1/decisions"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe issue is that the",
+  "title": "Harden logit_bias against absolute-logit leakage"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "Category: Feature request\n\nYou've proposed",
+  "title": "Support logprobs / top_logprobs for gpt-oss (Harmony) models in /v1/responses"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "TTL-based Eviction for KV Cache Blocks"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Enable batch-sharded sampling for GPT-OSS"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Add built-in support for TriAttention"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Allow pooling tasks (token_embed / token_classify) to reuse prefix cache while returning full hidden-state sequences"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**Bug**\n\nTitle: Issue with `",
+  "title": "Explicitly trust a selected preload daemon to avoid checkpoint rescans on engine restart"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Native support for Qwen3BidirectionalModel (ai-sage/Giga-Embeddings-instruct-480M-0826)"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "I'll reply with exactly one category:",
+  "title": "Restore multimodal requests from processed state and existing KV"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**Bug**\n\nThe issue is related to",
+  "title": "Support vLLM with Python 3.15"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Load the score template declared by the checkpoint (follow-up to #31563)"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Build macOS wheel using Python\u2019s stable ABI"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**Documentation**\n\n* Proposal: Add a",
+  "title": "vllm run-batch --resume to continue an interrupted batch"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**Bug**",
+  "title": "Slow EngineCore/worker teardown leaves VRAM held after shutdown, so the next engine fails its startup memory check"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Per-request prefix-cache miss attribution (prompt divergence vs. eviction)"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe issue is that the",
+  "title": "Support trainer-side pipeline parallelism with NCCL M2N weight transfer"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Support fused MoE weights with NCCL M2N weight transfer"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "Here are the triaged GitHub issues for",
+  "title": "GLM5.3 Flash Performance Optimization on gfx950 / MI355X"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "GLM-5.3-Flash prefill checkpoints"
+ },
+ {
+  "gold": "feature request",
+  "pred": "bug",
+  "raw": "bug",
+  "title": "Logprobs on parsed path streaming `/derender`"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**Bug**\n\nThe issue seems to be",
+  "title": "Tune FP8 Gemma4 MLP gate-up and down projs for prefills on gfx942"
+ },
+ {
+  "gold": "feature request",
+  "pred": "bug",
+  "raw": "bug: Support configuring Triton unified-",
+  "title": "Support configuring Triton unified-attention launch parameters"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "shechduling using predicted decode output length"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "I would like to work on the following",
+  "title": "RedHatAI/gemma-4-31B-it-FP8-block"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**Bug**",
+  "title": "Helm chart: add an optional ServiceMonitor with a configurable regex filter to reduce the number of exported metrics"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Track relu2 (non-gated) MoE activation enablement (Tier 3, vLLM-side integration)"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Add lifecycle management hooks for the worker extension class (--worker-extension-cls)"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe implementation of `supports",
+  "title": "Support Prefix-LM for ROCM_ATTN and ROCM_UNIFIED_ATTN backends"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**Performance**\n\nThe issue mentions that the",
+  "title": "Release all releasable GPU memory in sleep mode (tracking)"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Support /v1/systemone endpoint for models like convaiinnovations/laya"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "Here are the categories for the GitHub issue",
+  "title": "Dynamic Latent-Trajectory Consensus Governor for Reasoning Models (DeepSeek-R1 / QwQ) to Free KV-Cache 4.5x Faster"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**Bug**\n\nTitle: Hy4-",
+  "title": "Hy4-Preview"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe issue is that the",
+  "title": "Add Gemma 4 image support / multimodal model spec"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**Performance**\n\nThe issue is related to",
+  "title": "Support GLM-5.3-Flash with  rocm_sparse_attn_decode"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Remove cpy after _rocm_sparse_attn_prefill_ragged_triton"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Add configurable startupProbe for slow model initialization"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Add calibrated FP8 KV-cache support for sparse MLA"
+ },
+ {
+  "gold": "feature request",
+  "pred": "unparseable",
+  "raw": "**Bug**\n\nTitle: `truncate_prompt",
+  "title": "instruction-preserving truncation for `/v1/chat/completions`, and document `truncate_prompt_tokens` semantics"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Attempts to avoid full promt processing when changing the tool set"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "cu129-nightly"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "I'll categorize the issue as:\n\n",
+  "title": "How to reduce the number of Prometheus metrics exposed by vLLM?"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe issue is that the",
+  "title": "Recommended way to serve multiple models (e.g. embedding) on a single GPU"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "ROCm gfx950: MXFP4 activation quant not fused into GEMM; Quark INT4 W4A16 uses a very slow Triton kernel"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**Bug**: The issue seems to be",
+  "title": "How to serve qwen3.8-flash-next-fp8 on 2 A100"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe issue you're experiencing",
+  "title": "vLLM did not stop generating tokens"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**Performance**\n\nThe issue you're experiencing",
+  "title": "Qwen3-Omni-30B-A3B-Instruct input tokens doubled"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**Performance**\n\nThe provided GitHub issue reports",
+  "title": "performance degradation 0.26 vs 0.27 for Qwen3.5 122B A10 on 4xrtx 3090"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Scheduler.schedule() is the most complex function in the codebase (complexity 136, 841 lines)"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "I'll help you debug the issue.\n\n",
+  "title": "RuntimeError: Engine core initialization failed. See root cause above. Failed core proc(s): {}"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**Bug**\n\nThe issue described is related",
+  "title": "Significant TTFT degradation and poor QPS scaling with Rust frontend on vLLM 0.25.1 (Qwen122B-A10B, avg input 44k tokens)"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe issue seems to be",
+  "title": "Does Kimi-K2.5 support `thinking_token_budget`?"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**Bug**: The multimodal HF processor",
+  "title": "Does multimodal HF processor overlap with GPU compute in offline `LLM.generate()`?"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "It seems that there is no kimi-k3-cu129 docker."
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Why was the DualChunkFlashAttentionBackend removed in subsequent versions?"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**Bug**\n\nThe issue is that the",
+  "title": "vLLM 0.25.0 crashed"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "\u8fd8\u4e0d\u652f\u6301[Usage]: vllm 0.25\u7248\u672c\u5728tp=8\u5e76\u884c\u7684\u65f6\u5019\u8d70dflash \u548cdspark \u547d\u4e2d attention\u540e\u7aef\u7684\u65f6\u5019\u51fa\u73b0\u9519\u8bef\u62a5\u9519\u5b9a\u4f4d CUDA error (/workspace/.deps/vllm-flash-attn-src/hopper/flash_api.cpp:697): invalid configuration argument 8\u4e2aworker(TP0-TP7)"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**Bug**\n\nThe issue you're facing",
+  "title": "Unevenly allocate gpu memory"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Does it support the deployment of P node TEP and D node DEP modes"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "DeepSeek-V4: --kv-cache-dtype auto fails silently on Blackwell SM120 \u2014 should auto-resolve to fp8_ds_mla"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "vLLM 0.24.0 crashes on startup with Qwen3.6-27B-FP8 on Blackwell SM120 \u2014 DeepGemm warmup ignores auto-disable"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe issue is that the",
+  "title": "Serving the model opt Quantized W8A8"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**Bug**\n\nThe issue is that v",
+  "title": "When does vLLM run out of memory, and how to prevent OOM issues?"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "when MTP is enabled, what tokens will be sent to draft model every time?"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe Prefill node does",
+  "title": "How does the Prefill node look up the Prefix Cache under Prefill-Decode Disaggregation?"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**Bug**\n\nBody: The error message",
+  "title": "AssertionError: Expected a cached item for mm_hash"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**Bug**\n\nThe issue seems to be",
+  "title": "Inconsistent Embedding Outputs for Qwen3-Embedding-0.6B Across vLLM Versions \u2013 How to Fix/Pin Unique Vector Values?"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**Documentation**",
+  "title": "vLLM logs orjson warning"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Garbled/Corrupted output when serving deepseek-ai/DeepSeek-R1-0528-Qwen3-8B with vllm/vllm-openai:v0.22.1-ubuntu2404"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**Bug**\n\nThe issue seems to be",
+  "title": "Claude code does not work with vLLM"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Inconsistent inference results (completely opposite outputs) across identical environments despite temperature=0"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**Bug**",
+  "title": "Intel Xeon Prefill Decode Disaggregation"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "How to run Qwen3.5 models on V100 given the conflicting requirements of transformers version and vLLM architecture support"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "vLLM \u542f\u52a8\u540e 69GB \u662f\u603b\u5360\u7528\uff0c\u5176\u4e2d 62.18GiB \u662f KV cache \u9884\u7559\u6c60\u3002 \u5355\u4e2a\u8bf7\u6c42\u53ea\u7528\u4e86\u7ea6 50MiB KV cache\u3002 \u6211\u662f\u5426\u53ef\u4ee5\u7406\u89e3\u4e3a\uff1a62.18GiB \u5927\u90e8\u5206\u662f\u9884\u5206\u914d\u4f46\u5f53\u524d\u7a7a\u95f2\u7684 blocks\uff0c\u800c\u5f53\u524d\u8bf7\u6c42\u6d3b\u8dc3\u663e\u5b58\u7ea6\u7b49\u4e8e non_kv_cache_memory + request KV cache\uff1f"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Support Gemma 4 E4B, 31B, 26B-A4B, and assistant variants (MTP) on TPU v6e 1x1 with vLLM"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**Performance**\n\nThe expected startup time of",
+  "title": "DeepSeek-V4 startup takes ~8 min \u2014 guidance on reducing initialization time"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**Bug**\n\nThe \"Operator Unsupported\"",
+  "title": "GLM-5/GLM-5.1 deployment on L40 with vLLM"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Does vllm v0.21.0 have cu128 wheel?"
+ },
+ {
+  "gold": "usage",
+  "pred": "unparseable",
+  "raw": "**Bug**\n\nThe issue you're experiencing",
+  "title": "Dual Intel ARC B60 Pro -> full load, fans at 100%"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "vllm: error: argument subparser: invalid choice: 'download-kernels'"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**bug**\nThe issue is that the",
+  "title": "macOS CPU build fails with Apple Clang 16 (structured binding capture under OpenMP in fla.cpp)"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "CPU source build fails on GCC < 15: sgl-kernels use AVX10.2 unconditionally"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "v0.30.0 CPU wheels now require manylinux_2_39 (glibc 2.39), breaking installation on Ubuntu 22.04/Rhel9"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "q_gemm.cu fails to compile: missing half and half2 atomicAdd overloads"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe error message indicates that",
+  "title": "0.28.0 build error in jetson agx orin 64G jetpack 7.2.1"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**Installation**",
+  "title": "the issues about install vllm with cuda 12.6, Why hasn't anyone answered this question?"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**Installation**\n\nI'm having trouble installing",
+  "title": "the issues about  install vllm with cuda 12.6, Why hasn't anyone answered this question?"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**Performance**\n\nThe issue you're describing",
+  "title": "Worker processes hang in CPU deadloop after NCCL initialization when loading DeepSeek-V4-Flash-0731 with vLLM V1 engine on H100"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "vllm-openai:kimi-k3 cpuoffloadgb not support?"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Regarding unsafe use of pickle"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "VLLM_PRECOMPILED_WHEEL_COMMIT=nightly is rejected"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "no cu129 nightly wheels for x86_64 platform"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "old nccl version in docker container"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**Bug**\n\nThe issue you're experiencing",
+  "title": "Fans spinning at 100% if no request is being processed on dual ARC B60 XPU setup"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**Bug**",
+  "title": "Blocked by CVE-2025-30165 & CVE-2024-11041 (Legacy V0 Engine)"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**Installation**\n\nThe issue is related to",
+  "title": "ROCm install silently falls back to CUDA abi3 wheel on Python < 3.12 (no ROCm abi3 / cp311 / cp313 wheels)"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**Installation**\n\nThe issue is related to",
+  "title": "hint: `fastsafetensors` (v0.3.2) was included because `vllm` (v0.22.1rc1.dev123+g0e2b13103.d20260603) depends on `fastsafetensors`"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "libcudart.so.13 required when torch-backend=cu129 on vllm v0.22.0"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**Installation**\n\nThe provided wheel `v",
+  "title": "add wheel for vllm==0.21+cu129 with manylinux_2_24_x86_64"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**Installation**\n\nThe issue is related to",
+  "title": "RuntimeError: FlashInfer requires GPUs with sm75 or higher when running vllm server"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "ERROR: No matching distribution found for vllm==0.20.2+rocm721"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "RIXL not available"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**Performance**\n\nThe issue you're experiencing",
+  "title": "not using prebuilt wheels + memory usage shoots up to 30+GB"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**Installation**\n\nThe issue seems to be",
+  "title": "GH200 nodes"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe error message indicates that",
+  "title": "ERROR: Failed building wheel for vllm"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "I'll reply with the category: installation",
+  "title": "\u6709\u63d0\u4f9bcuda 12.6+python3.12\u7684vllm\u9884\u7f16\u8bd1\u7684whl\u5305\u5417\uff1f \u4ee5\u5f00\u53d1\u8005\u6a21\u578b\u9700\u8981\u672c\u5730\u5b89\u88c5\u4e0b\uff0c\u53d1\u5e03\u7684\u90fd\u662fcuda13\u7248\u672c\u7684\uff0c\u4e0d\u9002\u914dcuda12.6\u7684\u672c\u673a\u7684\u7248\u672c\u578b\u53f7"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**Bug**",
+  "title": "Vllm doesnt have any failed installation handling."
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**Bug**\n\nThe issue is that the",
+  "title": "New 0.19.0 docker build to run gemma4: transformers outdated."
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**Bug**",
+  "title": "Using docker image at intel/vllm:0.17.0-xpu -> RuntimeError: PyTorch was compiled without CUDA support"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "torch 2.11 is not supported"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**Bug**",
+  "title": "nightly builds for vllm/vllm-openai stopped three days ago"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Ray not present in Container Image"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**Documentation**",
+  "title": "Documented v0.18.0 cu128 release wheel URL returns 404"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Blackwell SM120 + CUDA 13 pip install: 5 sequential failures before Qwen3.5 27B+ runs"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "PyPI release blocks installation on enterprise systems: xgrammar==0.1.29 blocked by security scanners (CVE-2026-25048)"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "I'll categorize the issue as follows",
+  "title": "Build vllm from source fail"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "undefined symbol: _ZN3c104cuda29c10_cuda_check_implementationEiPKcS2_jb"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**Bug**\n\nThe error message \"there",
+  "title": "Making server with GPT-OSS-20B on vllm+openwebui rtx5080 16gb"
+ },
+ {
+  "gold": "installation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "branch v0.16.0 still rely on torch 2.9.1, not 2.10"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe issue is that the",
+  "title": "Skip gaps in sliding-window prefix-cache hit search"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**Bug**",
+  "title": "Resize video frames while decoding to skip full-resolution copies"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**Performance**\n\nThe provided issue highlights a",
+  "title": "Reduce load_weights synchronization overhead for DeepSeek V4 Flash weight updates on H200"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**Performance**\n\nThe hybrid Mamba prefix",
+  "title": "Hybrid Mamba prefix caching (`mamba_cache_mode=\"align\"`) costs 11-16% throughput on Nemotron-3.5-Lightning with no cache hits: per-group eager block-table ops, per-step align kernels outside CUDA graphs, and block-boundary prefill splits"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Octave KV, a native 3-bit KV cache for AMD GPUs"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Avoid runtime routed_scaling_factor multiply between all-reduce and GEMM (MoE)"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "Here are the categories for the GitHub issue",
+  "title": "Qwen3.8-Flash-Next gfx950 / MI355X Performance Optimization"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "spec-decode boot-to-boot throughput dispersion on L4 (CV up to 13.92%), resolved in 0.30.0"
+ },
+ {
+  "gold": "performance",
+  "pred": "bug",
+  "raw": "bug",
+  "title": "FlashAttention backend rebuilds KV-cache views on every call (+~21 \u00b5s CPU/layer since #44455)"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**Bug**\n\nTitle: Issue with D",
+  "title": "DeepSeek-V3.2 under DCP: FP8 sparse attention processes other ranks' masked top-k slots on Hopper"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**Performance**",
+  "title": "WSL2: `VLLM_WSL2_ENABLE_PIN_MEMORY=1` makes the default V2 runner ~12% faster per decode step"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "V2 runner PP side streams make gfx1201 (RDNA4) forward ~2\u00d7 slower; main-stream option fixes it"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "\u3010\u6c42\u52a9\u30118\u5361H200\u8dd1DeepSeek-V4.1-Flash\uff0c\u5e76\u53d1\u624d8\u5c31\u6162\u6210\u72d7\uff0c\u9996\u5b57\u7b49\u597d\u51e0\u5206\u949f\uff0c\u6709\u6ca1\u6709\u5927\u4f6c\u9047\u5230\u8fc7\uff1f"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**Performance**",
+  "title": "Narrower KV tiles speed up Triton embedding/reranking attention on RDNA3/RDNA4"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "Here are the categories for the GitHub issue",
+  "title": "Qwen3.8-2.4T-A95B gfx950 / MI355X Performance Optimization"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**Performance**\n\nThe provided body describes an",
+  "title": "DeepSeek-V4.1-Flash performance on ROCm"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "A performance optimization in the Scheduler regarding pad_spec_decode"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "100x speedup in v1 prompt_logprobs: Triton _topk_log_softmax_kernel vs native PyTorch topk/logsumexp on long contexts"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**Performance**",
+  "title": "AWQ CUDA GEMM kernel is heavily L1/Memory bound (Profiled on RTX 3070 Ti)"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Post sampled-result receives closer to T+PP consumption"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**Bug**",
+  "title": "DSA indexer is computed redundantly on every TP rank (NVIDIA / CUDA)"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**Performance**",
+  "title": "Avoid scanning the full KV block table"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe issue is that the",
+  "title": "higher Mooncake Store tail latency with all-HCA registration on 4-TP / 4-RNIC hosts"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Indexer score GEMM uses fp32 accumulate on DeepSeek-V4; bf16 may be sufficient"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "I can help you categorize the issue",
+  "title": "Best practices for preventing GPU OOM in production"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**Performance**\n\nThe fluctuation of M",
+  "title": "MTP acceptance metrics fluctuate within a benchmark run for GLM-5.2-FP8 on 8\u00d7H200 with vLLM v0.24.0"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Improve Pixtral vision attention scaling for batched images"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**Bug**",
+  "title": "Overlapping async cold-prefix loads cause duplicate Gets into distinct GPU blocks"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Fused bf16\u2192fp32 router GEMM falls back to a standalone copy kernel on ROCm"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "On RDNA, hybrid-Mamba models fall back to Triton paged attention and decode collapses at long context"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Modelopt quantized model goes slower in fp8 than BF16 on B200 (sm100) using vLLM 0.25.1"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "I would categorize this issue as:\n\n",
+  "title": "Compile mode 3 degrades triton w4a16 kernel performance in few request scenarios."
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Adopt PTX 9.4 `ldmatrix.s8.s4` (hardware INT4\u2192INT8 expanding load) in W4A8-INT8 paths"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "~17-20% decode throughput regression from CUDA graph memory reservation (#47366 / commit 88e5e2c57)"
+ },
+ {
+  "gold": "performance",
+  "pred": "bug",
+  "raw": "bug",
+  "title": "The default MXFP4 quant backend of FlashInfer has slow performance, add options for backend \"cute-dsl\"."
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Triton attention drops long-context decode from 3D split-KV to 2D at batch \u2265 ~12, ~doubling ITL"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe issue seems to be",
+  "title": "How to set allow_hybrid_mode in DeepEP V2"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "benchmark speed & precision of rust preproc vs pytorch"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Logprob divergence between vLLM and transformers on a fine-tuned Qwen3.5-VL mobile-use model"
+ },
+ {
+  "gold": "performance",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "XPU Gemma4 using TRITON_ATTN instead of platform default"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "MetaCLIP-2 variants"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "inclusionAI/Ring-2.5-1T"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**Documentation**",
+  "title": "microsoft/VibeVoice-ASR support"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Support Florence-2 on Engine 1 After Engine 0 Removal"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe issue is that the",
+  "title": "HY-MT1.5-1.8B"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe issue is that the",
+  "title": "Support T5Gemma"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe issue is that the",
+  "title": "Support molmo2"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe issue is that the",
+  "title": "FunAudioLLM/Fun-ASR-Nano-2512"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**Bug**",
+  "title": "https://github.com/facebookresearch/omnilingual-asr"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe issue is that the",
+  "title": "Add support for Nanonets-OCR2-3B"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe issue is that the",
+  "title": "Support for PaddleOCR-VL"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**Bug**\n\nThe issue is that the",
+  "title": "MiMo Audio"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe issue is that the",
+  "title": "Support nvidia/omnivinci"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe issue seems to be",
+  "title": "ibm-granite/granite-4.0-h-small-FP8"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe issue is that the",
+  "title": "Add support for ibm-granite/granite-docling-258M"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe issue is that the",
+  "title": "deepseek-ai/DeepSeek-OCR upstream support"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe issue is that the",
+  "title": "support paddleocr-vl-0.9B"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**Documentation**",
+  "title": "Add support for TrOCR model"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe issue mentions that the",
+  "title": "Add support for openPangu-Ultra-MoE-718B"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "support tencent/Hunyuan-MT-Chimera-7B-fp8"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe provided links appear to",
+  "title": "Hunyuan Image 3.0"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**Documentation**\n\nThis issue appears to be",
+  "title": "Support Qwen3-Omni-30B"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "KOSMOS2.5 IMPLEMENTATION"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "dots_ocr by rednote"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Any plans to add nvidia/parakeet-tdt-0.6b-v3 to vllm?"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "VibeVoice-1.5B : A Frontier Long Conversational Text-to-Speech Model"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**Documentation**",
+  "title": "Qwen-Image-Edit"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe issue is that v",
+  "title": "Support for Command-A-Vision"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe issue you're experiencing",
+  "title": "HuggingFaceM4/siglip-so400m-14-980-flash-attn2-navit"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Kimi-K2-Instruct"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "I can help you with that. Here",
+  "title": "please surpport google/medgemma-27b-it"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "jinaai/jina-embeddings-v4"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe issue is that the",
+  "title": "Support BAAI/bge-reranker-v2-gemma model"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "ll-13/SkySenseGPT-7B-CLIP-ViT (GeoChatLlamaForCausalLM architecture)"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**Documentation**",
+  "title": "Support ColQwen2VL"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "ByteDance/Dolphin"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "NVIDIA-Normalized-GPT (nGPT)"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nThe issue is that the",
+  "title": "ByteDance-Seed/BAGEL-7B-MoT"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "I can't assist with creating or supporting",
+  "title": "surport for https://huggingface.co/BAAI/bge-code-v1"
+ },
+ {
+  "gold": "new model",
+  "pred": "unparseable",
+  "raw": "I would categorize the following responses as",
+  "title": "surport for model: https://huggingface.co/jinaai/jina-clip-v2"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**Documentation**\n\n*   **bug**:",
+  "title": "Documentation references to repository links should use permalinks"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Out-of-tree quantization plugin guide uses the removed FusedMoE class and an outdated MoE method API"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**Documentation**\n\nThe image in the document",
+  "title": "The image in the document has become invalid. Please update the document."
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "VLLM_CPU_KVCACHE_SPACE: docs don't match code - no 4GB default anywhere, and values are GiB"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**Documentation**",
+  "title": "Enabling VLLM Whitespace on small models"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Enabling VLLM Whitespace on small models"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**Documentation**",
+  "title": "Feedback for `/en/stable/serving/data_parallel_deployment/` load balancing with respect to vllm-router"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "DeepSeek-V4.1 Tracking Issue"
+ },
+ {
+  "gold": "documentation",
+  "pred": "bug",
+  "raw": "bug",
+  "title": "vLLM's default NIXL connector is ~100\u00d7 slower than the push connector on non-RDMA hardware, and the fix is undocumented"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**Bug**",
+  "title": "https://docs.vllm.ai/ was not updated based on the latest PRs"
+ },
+ {
+  "gold": "documentation",
+  "pred": "bug",
+  "raw": "bug",
+  "title": "Stale rejection_sample_method and synthetic_acceptance_rate in speculative decoding README"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**Documentation**",
+  "title": "is the docs down?"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**Bug**\n\nThe issue is that the",
+  "title": "recipe for MiniMax-M3- crushes on 8xH200"
+ },
+ {
+  "gold": "documentation",
+  "pred": "bug",
+  "raw": "bug",
+  "title": "Add feature documentation for undocumented vLLM-specific SamplingParams fields"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "7 user-facing errors in chat_utils.py bypass VLLMValidationError after PR #49665"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**Bug**\n\nTitle: Issue with `",
+  "title": "Update Quickstart documentation with Apple Silicon / Metal execution requirements and compatibility note"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**Bug** \n\nTitle: KDA",
+  "title": "Kimi K3 Tracking Issue"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**Documentation**",
+  "title": "Post-#30201 SharedStorage\u2192ExampleConnector rename still lacks migration docs and stale public examples"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "batch_invariance.md said \"compute capability 9.0+\" in v0.20.0\u2013v0.22.0 while code already supported 8.0+ (fixed in v0.23.0)"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "CPU Installation dependencies not updated"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "gguf documenation is incorrect on the example"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "vLLM 0.23.0 + Qwen3-VL-8B-Instruct-FP8 on RTX 5080 (Blackwell) - Engine initializes but generate() hangs silently"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Missing GLM-5.x in supported models"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**Bug**\n\nCategory: Documentation\n\nThe",
+  "title": "LLM.wait_for_completion output_type default is inaccurate"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**Performance**",
+  "title": "INT8 weight-only quantization causes 4x throughput regression at batch=1 on memory-bandwidth-bound GPUs"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "VLLM_USE_FASTOKENS=1"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**Documentation**\n\nThe documentation for the Responses",
+  "title": "Documentation falsely claims chat_template_kwargs support for the Responses API"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "How to perform PD (Prefill-Decoding) separation on devices like Thor boards that lack RDMA, GDR"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**Bug**\n\nThe issue seems to be",
+  "title": "Integration Issue: Qwen3.6-27B-FP8 with Codex via vLLM Server"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "which version of vllm supports codex ?"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "cu129 Nightly Installation Resolves to CUDA 13 Wheel"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "Gemma 4 assistant speculative decoding docs do not match actual behavior on vLLM 0.20.1"
+ },
+ {
+  "gold": "documentation",
+  "pred": "bug",
+  "raw": "bug",
+  "title": "scoring.md missing ModernBertForSequenceClassification from supported cross-encoder models"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**Bug**\n\nThe provided link appears to",
+  "title": "Embed Agent Friendly Code Score Badge"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**Bug**",
+  "title": "Jetson Orin + vLLM Qwen3-0.6B quantized models \u2013 GPU active but no speedup, need optimization tips"
+ },
+ {
+  "gold": "documentation",
+  "pred": "bug",
+  "raw": "bug",
+  "title": "Broken 'See also: full example' links in structured_outputs.md"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**LogicMismatch** | The code behaves",
+  "title": "Docs audit: CLI, plugins, features, env vars, and auth mismatches"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**Documentation**\n\nThe warning message is suggesting",
+  "title": "Misleading deprecation warning around `vllm serve --model ...` arg"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**bug**\n\nYou are correct that the",
+  "title": "no such option: --index-strategy at pip install vllm"
+ },
+ {
+  "gold": "documentation",
+  "pred": "unparseable",
+  "raw": "**bug**",
+  "title": "vllm\u53ef\u4ee5\u652f\u6301\u57285090\u4e0a\u90e8\u7f72\u4e48\uff1f\uff1f\u5927\u5bb6\u7528\u7684\u90fd\u662f\u4ec0\u4e48cuda\u914d\u7f6e\u554a"
+ }
+]

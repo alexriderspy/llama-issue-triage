@@ -1,0 +1,5 @@
+sreemanti@MacBook-Pro issue-triage % python train.py
+W1021 00:17:01.909000 85633 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 5071.58it/s]
+trainable params: 11,272,192 || all params: 1,247,086,592 || trainable%: 0.9039
+validation loss before training: 3.99
