@@ -28,7 +28,8 @@ def encode(row):
     return {"input_ids": prompt_ids + answer_ids, "labels": [-100] * len(prompt_ids) + answer_ids}
 
 def collate(batch):
-    width = max(len(x["input_ids"]) for x in batch)
+    # round up to a multiple of 64: GPUs (Apple's especially) are much faster when they see the same shapes again
+    width = -(-max(len(x["input_ids"]) for x in batch) // 64) * 64
     pad = lambda seq, value: seq + [value] * (width - len(seq))
     return {
         "input_ids": torch.tensor([pad(x["input_ids"], tokenizer.pad_token_id) for x in batch]),
@@ -65,7 +66,7 @@ for epoch in range(EPOCHS):
             optimizer.step(); scheduler.step(); optimizer.zero_grad()
             step += 1
             history.append({"step": step, "train_loss": loss.item() * ACCUM})
-            if step % 10 == 0:
+            if step % 5 == 0:
                 print(f"epoch {epoch + 1} step {step}/{total_steps} loss {loss.item() * ACCUM:.3f}")
     v = val_loss()
     history.append({"step": step, "val_loss": v})

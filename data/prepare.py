@@ -35,7 +35,7 @@ if __name__ == "__main__":
         items.sort(key=lambda x: x["created"], reverse=True)
         splits["test"] += items[:40]
         splits["val"] += items[40:60]
-        splits["train"] += items[60:]
+        splits["train"] += items[60:160]   # 100 per label keeps training short on a laptop
     for name, items in splits.items():
         with open(f"data/{name}.jsonl", "w") as f:
             for x in items:

@@ -1,4 +1,4 @@
 sreemanti@MacBook-Pro issue-triage % python data/prepare.py
-train 1539
+train 700
 val 140
 test 280

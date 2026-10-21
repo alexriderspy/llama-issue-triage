@@ -4,7 +4,7 @@ CATEGORIES = ["bug", "feature request", "usage", "installation", "performance", 
 SYSTEM = ("You triage GitHub issues for vLLM, the open-source LLM inference engine. "
           "Read the issue and reply with exactly one category: " + ", ".join(CATEGORIES) + ".")
 
-def build_prompt(tokenizer, title: str, body: str, max_body_tokens: int = 256) -> str:
+def build_prompt(tokenizer, title: str, body: str, max_body_tokens: int = 128) -> str:
     body_ids = tokenizer(body, add_special_tokens=False)["input_ids"][:max_body_tokens]
     body = tokenizer.decode(body_ids)
     messages = [{"role": "system", "content": SYSTEM},

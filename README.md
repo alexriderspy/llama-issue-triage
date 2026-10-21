@@ -20,3 +20,12 @@ python evaluate.py issue-triage-lora  # fine-tuned model
 ```
 `media/terminal/` has the exact output of every step from the run in the video (made with `capture.sh`).
 The video run loaded the identical weights from the `unsloth/Llama-3.2-1B-Instruct` mirror via `MODEL_ID`.
+
+## Results (280 newest issues, never seen in training)
+| Model | Accuracy |
+|---|---|
+| Llama 3.2 1B, prompt only | 23.9% |
+| TF-IDF + logistic regression | 61.4% |
+| Llama 3.2 1B + LoRA (700 issues, 1 epoch) | 68.9% |
+
+The LoRA adapter is in `issue-triage-lora/` (43 MB).
